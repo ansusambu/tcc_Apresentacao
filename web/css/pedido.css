@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/07/2014, 03:37:22
+    Author     : David
+*/
+
+
+.credito a  { text-decoration: none; color: #f96406; }
+
+.titulo{
+    border: solid 1px #ffffff;
+}
+
+#pedido{
+    margin-top: 20px;
+    border-collapse: collapse;   
+    width: 88%;
+}
+#pedido tr td{
+    border-bottom: solid 1px #ffffff;     
+}
+#pedido tr td span{
+    display: block;  
+    //color: #00aeef;
+    //font-size: 14px;
+}
+#pedido tr td input{
+    width: 100%;
+}
+#justificativa{
+    width: 600px;
+    height: 200px;
+}

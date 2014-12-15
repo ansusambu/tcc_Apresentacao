@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/06/2014, 20:26:48
+    Author     : David
+*/
+html, body{
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;     
+}
+header{
+    min-width: 600px;
+    border-top: solid #A6A196;
+    border-bottom: solid 1px #A6A196;
+    width: 100%;
+    height: 5%;
+    min-height: 30px;
+    margin-top: 40px;
+    background: rgba(255,255,255,0.75);
+ }
+nav{
+    height: 14px;
+    margin-left: 100px;
+}
+ul{margin-top: 7px;}
+
+ul li{display: inline;}
+
+
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    padding: 0 20px;
+    height: 44px;
+    font-size: 14px;
+    color: #4a4d4f;
+    text-transform: uppercase;
+}
+
+.conteudo{
+    margin: 2% auto;
+    border: solid 1px #A6A196;
+    width: 80%;
+    min-width: 600px;
+    min-height: 75%;
+}
+
+.boton{
+    width: 120px;
+    background-color: #eaebeb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d9dbdd), to(#eaebeb));
+    background: -webkit-linear-gradient(top, #d9dbdd, #eaebeb);
+    background: -moz-linear-gradient(top, #d9dbdd, #eaebeb);
+    background: -ms-linear-gradient(top, #d9dbdd, #eaebeb);
+    background: -o-linear-gradient(top, #d9dbdd, #eaebeb);
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: #f3f3f3;
+    border-radius: 8px;
+    height: 30px;
+}

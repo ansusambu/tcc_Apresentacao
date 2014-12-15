@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/07/2014, 03:37:57
+    Author     : David
+*/
+
+.consulta a  { text-decoration: none; color: #f96406; }
+
+.titulo{
+    border: solid 1px #ffffff;
+}
+
+
+.pedido{
+    width: 88%;
+}
+.pedido tr{
+}
+.pedido tr td{
+    //margin-top: 100px;
+    border-bottom: solid 1px #ffffff
+}
+
+.pedido tr td input{
+    width: 100%;
+}
+
+.pedido tr td span{
+    display: block; 
+}
+
+#consulta_comp{
+    margin-top: 50px;
+    width: 100%;
+}
+#consulta_processo{
+    width: 100%;
+}
+

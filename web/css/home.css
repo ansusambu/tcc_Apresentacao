@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/06/2014, 03:45:50
+    Author     : David
+*/
+#mapa{
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.pesquisa{
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+    border: solid 1px;
+    display: inline-block;
+}
+#camp_pesq{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.tabela{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+}
+.table_alter{
+    width: 600px;
+}
+.table_alter span{
+    font-size: 11px;
+    color: #00aeef;  
+}
+.table_alter input[type=text]{
+    width: 99%;    
+}
+
+
+#entrada {
+    margin: 30px auto 20px auto;
+    border: 1px solid #d6d6d6; width: 280px; height: 24px; line-height: 22px; font-size: 11px; font-family: verdana, arial, helvetica, serif;  color: #bebebe;  border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
+}
+.selet{
+    width: 100%;
+    border-top: solid 1px #A6A196; 
+}
+select{
+    width: 400px;
+
+}
+
+.home a  { text-decoration: none; color: #f96406; }
+
+mp_pesq{
+    width: 100%;
+}
+#tabela{
+    width: 100%;
+    text-align: center;
+}
+#tabela tr td{
+    width: 30%;
+}
+.radio{
+     color: #A6A196; 
+}
+
+
+.dado{
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    font-size:  11px;    
+    color: #095676;
+    padding: 10px;
+    border-right: solid #ffffff;
+}
+.dado th{
+    color: #00aeef;  
+}
+.dado tr td, .dado th{
+    border: 1px solid #ffffff;
+}
+
+#boton_canc{
+    margin-left: 10px;
+}
+#boton_conf{
+    margin-right: 10px;
+}
+

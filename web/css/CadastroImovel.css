@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/05/2014, 22:37:29
+    Author     : David
+*/
+table{
+    margin: 30px auto;
+    width: 88%;
+}
+table tr td{
+    border-bottom: solid 1px #ffffff;
+}
+
+table tr td label{
+    display: block;
+}
+table tr td input{
+    width: 100%;
+}
+table tr td select{
+    width: 90%;
+    height: 23px;
+}
+.but{
+    width: 400px;
+    margin: 0 auto;    
+}
+
+.cadastrar a  { text-decoration: none; color: #f96406; }
+
+
